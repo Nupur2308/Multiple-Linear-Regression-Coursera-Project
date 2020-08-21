@@ -1012,8 +1012,8 @@ We can interpret the coefficients as follows:
 
 The interpretation of the intercept coefficient is meaningless to this exercise as a movie cannot have a runtime of 0 minutes. 
 
-##Model Diagnostics 
-###Linear Relationship between x and y 
+## Model Diagnostics 
+### Linear Relationship between x and y 
 >> For this, let us contruct residuals plots for each of the numeric variables. In this case, they are runtime, imdb_num_votes and audience_score
 
 
@@ -1052,7 +1052,7 @@ plot_grid(plot1,plot2,ncol=2,vjust=0)
 
 There is a little bit of a left skew in the data, so this might be a cause for concern. 
 
-###Constant Variability of Residuals 
+### Constant Variability of Residuals 
 >> To check this condition, we plot residuals vs fitted values 
 
 
@@ -1064,7 +1064,7 @@ plot(m14$fitted,m14$residuals)
 
 There is more variability around lower fitted values. Since there are fewer points showing this higher variability, this condition is not grossly violated.
 
-###Independent Residuals 
+### Independent Residuals 
 >> To check this condition, we plot residuals vs order of data collection  
 
 
