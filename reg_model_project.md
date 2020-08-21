@@ -1036,7 +1036,7 @@ plot_grid(plot1,plot2,plot3,scale=1,ncol=2,labels="AUTO")
 
 (C) **audience_score**: This residuals plot shows random scatter indicating a linear relationship. Only a few of the data points with lower audience score are showing larger variability in scatter of residuals, but it does not seem to be grossly violating the model conditions for linearity. 
 
-###Nearly Normal Residuals 
+### Nearly Normal Residuals 
 >> To check this condition, we plot a histogram and qq plot of the residuals 
 
 
